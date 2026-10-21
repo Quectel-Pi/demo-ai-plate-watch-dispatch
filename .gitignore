@@ -1,0 +1,15 @@
+# 巨型可再生产物（tools/make_run_pack.sh 可重建，勿入库）
+runtime/
+dist/
+packages/
+
+# 运行时数据（识别记录/调度日志/会话快照，运行时生成）
+data/
+
+# 缓存与备份
+__pycache__/
+*.pyc
+*.bak
+
+# 主机端临时环境
+.build/
